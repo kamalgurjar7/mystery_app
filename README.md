@@ -39,7 +39,7 @@ This project covers:
 6. **AI-powered features**
 7. **Anonymous messaging logic**
 8. **Reusable components & UI improvements**
-9. **Deployment**
+
 
 ---
 
