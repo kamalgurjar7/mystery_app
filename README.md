@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📨 Anonymous Feedback App with Next.js + AI
 
-## Getting Started
+This is a **full-stack Next.js application** where any anonymous user can send feedback to any other user.  
+The project implements a **custom authentication system** with **JWT tokens**, **sessions**, **Auth.js**, and includes **AI-powered features** for smarter interactions.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Features
+- 🔐 **Custom Auth System** (JWT, sessions, Auth.js)
+- 📧 OTP-based signup and email verification
+- 🗣 **Anonymous feedback system** — send messages without revealing identity
+- 📊 User dashboard with feedback statistics
+- 🤖 **AI integration** for message suggestions and sentiment analysis
+- 📩 Email service with Resend API
+- 🎯 Form validation with **Zod**
+- 🎨 Modern UI using **shadcn/ui** and **TailwindCSS**
+- ⚡ Database aggregation pipelines for analytics
+- 🖼 Carousel, message cards, and responsive design
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠 Tech Stack
+**Frontend:** Next.js, React, TailwindCSS, shadcn/ui  
+**Backend:** Next.js API Routes, Node.js  
+**Database:** MongoDB with Mongoose  
+**Auth:** Custom JWT + Sessions, Auth.js  
+**Email Service:** Resend API  
+**AI Features:** OpenAI API Integration *(or other AI model)*
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+## 📚 Learning Roadmap
+This project covers:
+1. **Building a production-ready Next.js app**
+2. **Form validation with Zod**
+3. **Database connection & queries**
+4. **Custom OTP-based signup**
+5. **Auth.js integration**
+6. **AI-powered features**
+7. **Anonymous messaging logic**
+8. **Reusable components & UI improvements**
+9. **Deployment**
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
